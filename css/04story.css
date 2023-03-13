@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+body#story div#header {
+	height: 160px;
+	width: 920px;
+}
+
+body#story div#contentsBox {
+	background: url(../story/img/bg_story.jpg) no-repeat center top;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+div#mapFlaBox {
+	width: 860px;
+	padding-top: 200px;
+	margin: 0 20px 15px 20px;
+}

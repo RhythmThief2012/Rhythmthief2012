@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #220000;
+	text-align: center;
+	color: #CCC;
+}
+
+.clearfix:after
+{	content:"";
+	display:block;
+	clear:both;} /* IE8, ModanBrowser */
+.clearfix {width:100%;} /* clearfix IE 6, 7 */
+
+div#wrapper {
+	text-align: left;
+	width: 400px;
+	margin: 0 auto;
+}
+
+div#wrapper h1 {
+	margin-bottom: 10px;
+}
+
+div#wrapper p {
+	font-size: 93%;
+	line-height: 140%;
+	margin-top: 10px;
+}
+
+/* テーブル */
+table.basic {
+	width: 100%;
+	border-top: solid 1px #5a2e2e;
+	border-left: solid 1px #5a2e2e;
+}
+
+table.basic th {
+	border-right: solid 1px #5a2e2e;
+	border-bottom: solid 1px #5a2e2e;
+	padding: 2px 5px;
+	background-color: #590c0c;
+	font-weight: bold;
+}
+
+table.basic td {
+	border-right: solid 1px #5a2e2e;
+	border-bottom: solid 1px #5a2e2e;
+	padding: 2px 5px;
+}

@@ -1,0 +1,60 @@
+.jquery-slider {
+    overflow: hidden;
+    position: relative;
+}
+.jquery-slider-element {
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.jquery-slider-control {
+	background: #C33;
+	display: block;
+	height: 74px;
+	width: 22px;
+    position: absolute;
+    cursor: pointer;
+}
+.jquery-slider-control:hover {
+    opacity: 1;
+}
+.jquery-slider-control-prev {
+    left: 5px;
+    top: 190px;
+	background: url(../rhythm/img/btn_left.gif) no-repeat;
+}
+.jquery-slider-control-next {
+    right: 7px;
+    top: 190px;
+	background: url(../rhythm/img/btn_right.gif) no-repeat;
+}
+/*.jquery-slider-pages {
+    overflow: hidden;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    height: 20px;
+    right: 5px;
+}
+.jquery-slider-page {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    float: right;
+    width: 50px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    background: #999;
+    opacity: 0.33;
+    margin: 3px;
+    border-radius: 6px;
+    box-shadow: #333 0 0 2px;
+}
+.jquery-slider-page-current {
+    opacity: 1;
+}*/

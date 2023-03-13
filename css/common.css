@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body { 
+	height: 100%;
+}
+
+body {
+	text-align: center;
+	background: url(../img/bg.jpg) no-repeat center top #000 fixed;
+	color: #CCC;
+}
+
+a:link{color: #cf8000;text-decoration:none;}
+a:visited{color: #955c00;text-decoration:none;}
+a:hover{color: #f29a0c;text-decoration:underline;}
+a:active{color:#f29a0c;text-decoration:none;}
+
+
+div#wrapper {
+	text-align: left;
+	width: 960px;
+	margin: 0 auto;
+	background: url(../img/bg_foot.gif) center bottom no-repeat #220000;
+}
+
+div#wrapperBox {
+	background: url(../img/bg_cnt.gif) repeat-y;
+	padding: 0 20px;
+}
+
+body#home div#header {
+	height: 70px;
+	width: 920px;
+}
+
+div#wrapper h1 {
+	display: none;
+}
+
+div#footer {
+	position: relative;
+	clear: both;
+	width: 920px;
+	border-top: dotted 1px #ab7b00;
+	padding: 20px 0;
+}
+
+div#footer p.info {
+	margin: 0 0 15px 10px;
+}
+
+div#footer ul {
+	font-size: 93%;
+	list-style: disc;
+	margin-left: 15px;
+}
+
+div#footer p.sega {
+	text-align: right;
+	font-size: 77%;
+}
+
+
+/***** 2階層目以下共通 *****/
+
+div#contents {
+	margin: 0 10px;
+}
+
+div#contents h2 {
+	margin-bottom: 20px;
+}
+
+
+/***** 汎用スタイル *****/
+
+.clearfix:after
+{	content:"";
+	display:block;
+	clear:both;} /* IE8, ModanBrowser */
+.clearfix {width:100%;} /* clearfix IE 6, 7 */
+
+hr {
+	clear: both;
+	background: url(../img/hr.gif) no-repeat;
+	height: 8px;
+	width: 900px;
+	margin-bottom: 30px;
+}
+
+p.main {
+	margin-bottom: 15px;
+}
+
+p.imgc {
+	text-align: center;
+	margin-bottom: 30px
+}
+
+p.imgc02 {
+	text-align: center;
+}
+
+p.imgl {
+	float: left;
+	text-align: center;
+	margin: 0 15px 15px 0;
+}
+
+p.imgr {
+	float: right;
+	text-align: center;
+	margin: 0 0 15px 15px;
+}
+
+.clear {
+	clear: both;
+}
+
+.titleLine {
+	border-left: solid 10px #960;
+	border-bottom: solid 1px #960;
+	padding: 0 0 2px 5px;
+	margin-bottom: 15px;
+	font-size: 108%;
+	font-weight: bold;
+}
+
+.titleDotted {
+	border-bottom: dotted 1px #666;
+	padding: 0 0 2px 10px;
+	margin-bottom: 15px;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+/* もどるボタン */
+p.back {
+	text-indent: -9999px;
+}
+
+p.back a {
+	display: block;
+	width: 92px;
+	height: 24px;
+	background: url(../img/btn_back.gif);
+}
+
+p.back a:hover {
+	background: url(../img/btn_back.gif) 0 24px;
+}
+
+/* もどる矢印 */
+.backArrow {
+	background: url(../img/ico_back.gif) no-repeat left center;
+	padding-left: 15px;
+}
+
+.none {
+	display: none;
+}
+
+/* 注意文 */
+ul.chui {
+	margin: 0 0 20px 15px;
+}
+
+ul.chui li {
+	list-style: disc;
+	color: #F33;
+	margin-bottom: 5px;
+}
+
+p.chui {	
+	color: #F33;
+}
+
+/* ノーマルリスト */
+ul.list {
+	margin: 0 0 20px 15px;
+}
+
+ul.list li {
+	list-style: disc;
+	margin-bottom: 5px;
+}
+
+ol.list {
+	margin: 0 0 20px 20px;
+}
+
+ol.list li {
+	list-style: decimal;
+	margin-bottom: 5px;
+}
+
+/* 左float */
+ul.leftFloat li {
+	float: left;
+	margin: 0 10px 15px 0;
+}
+
+ul.leftFloat li.last {
+	float: left;
+	margin-right: 0;
+}
+
+
+
+/* テーブル */
+table.basic {
+	border-top: solid 1px #5a2e2e;
+	border-left: solid 1px #5a2e2e;
+	margin-bottom: 15px;
+}
+
+table.basic th {
+	border-right: solid 1px #5a2e2e;
+	border-bottom: solid 1px #5a2e2e;
+	padding: 2px 5px;
+	background-color: #590c0c;
+	font-weight: bold;
+}
+
+table.basic td {
+	border-right: solid 1px #5a2e2e;
+	border-bottom: solid 1px #5a2e2e;
+	padding: 2px 5px;
+}

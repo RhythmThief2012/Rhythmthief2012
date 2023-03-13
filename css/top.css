@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("common.css");
+@import url("reset.css");
+@import url("01home.css");
+@import url("03game.css");
+@import url("04story.css");
+@import url("05rhythm.css");
+@import url("06chara.css");
+@import url("07artist.css");
+@import url("08movie.css");
+@import url("09other.css");
+@import url("11sound.css");
+@import url("12beginner.css");

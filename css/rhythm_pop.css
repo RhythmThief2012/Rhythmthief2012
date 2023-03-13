@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #220000;
+	text-align: center;
+	color: #CCC;
+}
+
+.clearfix:after
+{	content:"";
+	display:block;
+	clear:both;} /* IE8, ModanBrowser */
+.clearfix {width:100%;} /* clearfix IE 6, 7 */
+
+div#wrapper {
+	text-align: left;
+	width: 680px;
+	margin: 0 auto;
+}
+
+div#wrapper h1 {
+	text-align: center;
+	margin: 10px 0;
+}
+
+div#rhythmFlaBox {
+	float: left;
+	background: url(../rhythm/img/movie_frame.jpg);
+	width: 420px;
+	height: 250px;
+	margin-right: 10px;	
+}
+
+div#rhythmFlaBox iframe {
+	margin: 11px 0 0 11px;
+}
+
+div#rhythmTxt01 {
+	height: 260px;
+	background: url(../rhythm/img/ico_slide.jpg) 430px bottom no-repeat;
+}
+
+div#rhythmTxt02 {
+	height: 260px;
+	background: url(../rhythm/img/ico_touch.jpg) 430px bottom no-repeat;
+}
+
+div#rhythmTxt03 {
+	height: 260px;
+	background: url(../rhythm/img/ico_btn.jpg) 430px bottom no-repeat;
+}
+
+div#rhythmTxt04 {
+	height: 260px;
+	background: url(../rhythm/img/ico_cross.jpg) 430px bottom no-repeat;
+}
+
+div#rhythmTxt05 {
+	height: 260px;
+	background: url(../rhythm/img/ico_jayro.jpg) 430px bottom no-repeat;
+}
+
+div#rhythmTxt06 {
+	height: 260px;
+	background: url(../rhythm/img/ico_jayro_a.jpg) 430px bottom no-repeat;
+}
+
+div#wrapper p {
+	margin-top: 15px;
+	line-height: 160%;
+}

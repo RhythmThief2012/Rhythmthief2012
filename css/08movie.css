@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+body#movie div#header {
+	height: 160px;
+	width: 920px;
+}
+
+body#movie div#contentsBox {
+	background: url(../movie/img/bg_movie.jpg) no-repeat center top;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+/*body#movie div.movie09,body#movie div.movie02 {
+	position: relative;
+	width: 420px;
+	height: 256px;
+	text-align: center;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}*/
+
+div.subMovie {
+	margin: 20px 0 0 10px;
+	padding-top: 30px;
+	border-top: dotted 1px #9e7b1f;
+}
+
+body#movie div.movie03,body#movie div.movie04,body#movie div.movie05,body#movie div.movie06,body#movie div.movie07,body#movie div.movie08,body#movie div.movie01,body#movie div.movie10,body#movie div.coming,body#movie div.movie11,body#movie div.movie12,body#movie div.movie13,body#movie div.movie14,body#movie div.movie15,body#movie div.movie16,body#movie div.movie17,body#movie div.movie18,body#movie div.movie19,body#movie div.movie20,body#movie div.movie21,body#movie div.movie22,body#movie div.movie23,body#movie div.movie09,body#movie div.movie02 {
+	position: relative;
+	width: 280px;
+	height: 171px;
+	text-align: center;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	background-image: url(../movie/img/bg_movie20.jpg);
+}
+
+body#movie div.movie01 {
+	background: url(../movie/img/bg_movie01.jpg);
+}
+
+body#movie div.movie02 {
+	background: url(../movie/img/bg_movie02.jpg);
+}
+
+body#movie div.movie03 {
+	background: url(../movie/img/bg_movie03.jpg);
+}
+
+body#movie div.movie04 {
+	background: url(../movie/img/bg_movie04.jpg);
+}
+
+body#movie div.movie05 {
+	background: url(../movie/img/bg_movie05.jpg);
+}
+
+body#movie div.movie06 {
+	background: url(../movie/img/bg_movie06.jpg);
+}
+
+body#movie div.movie07 {
+	background: url(../movie/img/bg_movie07.jpg);
+}
+
+body#movie div.movie08 {
+	background: url(../movie/img/bg_movie08.jpg);
+}
+
+body#movie div.movie09 {
+	background: url(../movie/img/bg_movie09.jpg);
+}
+
+body#movie div.movie10 {
+	background: url(../movie/img/bg_movie10.jpg);
+}
+
+body#movie div.movie11 {
+	background: url(../movie/img/bg_movie11.jpg);
+}
+
+body#movie div.movie12 {
+	background: url(../movie/img/bg_movie12.jpg);
+}
+
+body#movie div.movie13 {
+	background: url(../movie/img/bg_movie13.jpg);
+}
+
+body#movie div.movie14 {
+	background: url(../movie/img/bg_movie14.jpg);
+}
+
+body#movie div.movie15 {
+	background: url(../movie/img/bg_movie15.jpg);
+}
+
+body#movie div.movie16 {
+	background: url(../movie/img/bg_movie16.jpg);
+}
+
+body#movie div.movie17 {
+	background: url(../movie/img/bg_movie17.jpg);
+}
+
+body#movie div.movie18 {
+	background: url(../movie/img/bg_movie18.jpg);
+}
+
+body#movie div.movie19 {
+	background: url(../movie/img/bg_movie19.jpg);
+}
+
+body#movie div.movie20 {
+	background: url(../movie/img/bg_movie20.jpg);
+}
+
+body#movie div.movie21 {
+	background: url(../movie/img/bg_movie21.jpg);
+}
+
+body#movie div.movie22 {
+	background: url(../movie/img/bg_movie22.jpg);
+}
+
+body#movie div.movie23 {
+	background: url(../movie/img/bg_movie23.jpg);
+}
+
+body#movie div.coming {
+	background: url(../movie/img/bg_coming.jpg);
+}
+
+body#movie div.left {
+	margin-right: 5px;
+}
+
+body#movie h3 {
+	display: none;
+}
+
+body#movie div.movie09 p,body#movie div.movie02 p {
+	padding-top: 40px;
+}
+
+body#movie div.movie03 p,body#movie div.movie04 p,body#movie div.movie05 p,body#movie div.movie06 p,body#movie div.movie07 p,body#movie div.movie08 p,body#movie div.movie01 p,body#movie div.movie10 p,body#movie div.coming p,body#movie div.movie11 p,body#movie div.movie12 p,body#movie div.movie13 p,body#movie div.movie14 p,body#movie div.movie15 p,body#movie div.movie16 p,body#movie div.movie17 p,body#movie div.movie18 p,body#movie div.movie19 p,body#movie div.movie20 p,body#movie div.movie21 p,body#movie div.movie22 p,body#movie div.movie23 p {
+	padding-top: 35px;
+}
+
+body#movie div span.new {
+	position: absolute;
+	right: 20px;
+	top: 25px;
+}
+
+div#jasrac {
+	position: absolute;
+	left: 725px;
+	top: 15px;
+	border: solid 1px #500000;
+	width: 180px;
+	padding: 5px;
+	height: 50px;
+	line-height: 120%;
+}

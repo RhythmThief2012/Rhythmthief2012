@@ -1,0 +1,281 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body#home h1 {
+	display: block;
+	position: absolute;
+	left: 450px;
+	top: 40px;
+}
+
+div#homeMain {
+	position: relative;
+	width: 920px;
+	height: 550px;
+	background: url(../img/main.jpg);
+	margin-bottom: 10px;
+}
+
+/*div#mainFlaBox {
+	position: absolute;
+	left: 560px;
+	top: 260px;
+}
+*/
+div#newsFlaBox {
+	position: absolute;
+	left: 9px;
+	top: 132px;
+}
+
+div#homeMain p.sega {
+	text-indent: -9999px;
+	position: absolute;
+	top: 510px;
+	left: 10px;
+}
+
+div#homeMain p.sega a {
+	display: block;
+	height: 30px;
+	width: 80px;
+}
+
+div#homeMain p.ninten3ds {
+	text-indent: -9999px;
+	position: absolute;
+	top: 520px;
+	left: 770px;
+}
+
+div#homeMain p.ninten3ds a {
+	display: block;
+	height: 20px;
+	width: 140px;
+}
+
+div#sns {
+	clear: both;
+	width: 920px;
+	height: 20px;
+	margin-bottom: 5px;
+}
+
+div#sns div {
+	float: right;
+	margin-left: 10px;
+}
+
+div#renew {
+	position: relative;
+	background: url(../img/bg_renew.jpg);
+	width: 425px;
+	height: 185px;
+	color: #333;
+	line-height: 140%;
+	margin: 0 20px 0 10px;
+}
+
+div#renew a:link{color: #9c6000;text-decoration:none;}
+div#renew a:visited{color: #955c00;text-decoration:none;}
+div#renew a:hover{color: #f29a0c;text-decoration:underline;}
+div#renew a:active{color:#f29a0c;text-decoration:none;}
+
+div#renew h2 {
+	display: none;
+}
+
+div#renewBox {
+	position: absolute;
+	left: 25px;
+	top: 30px;
+	width: 375px;
+	height: 125px;
+	overflow: auto;
+}
+
+div#renewBox dt {
+	background: url(../img/ico_arrow.gif) left center no-repeat;
+	padding-left: 15px;
+	font-weight: bold;
+}
+
+div#renewBox dd {
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	border-bottom: solid 1px #926352;
+}
+
+div#outline {
+	float: right;
+	width: 465px;
+}
+
+div#outline p {
+	float: right;
+	margin: 0 10px 15px 15px;
+}
+
+div#outline dt {
+	background: url(../img/ico_onpu.gif) no-repeat left center;
+	padding-left: 15px;
+	width: 80px;
+	float: left;
+	clear: left;
+}
+
+div#outline dd {
+	margin-left: 95px;
+}
+
+body#home div#bnr {
+	border-top: dotted 1px #ab7b00;
+	padding-top: 10px;
+	margin: 10px 0;
+	height: 40px;
+}
+
+body#home div#bnr li {
+	float: right;
+	margin-left: 5px;
+}
+
+body#home div#bnr li.last {
+	margin-left: 0px;
+}
+
+body#home div#bnrSp {
+	border-top: dotted 1px #ab7b00;
+	border-bottom: dotted 1px #ab7b00;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 10px 0;
+	height: 80px;
+}
+
+body#home div#bnrSp li {
+	float: left;
+	margin-right: 5px;
+}
+
+body#home div#bnr li.last,body#home div#bnrSp li.last {
+	margin-right: 0px;
+}
+
+/*体験版関連*/
+div#tryBox {
+	position: absolute;
+	left: 605px;
+	top: 275px;
+	width: 300px;
+}
+
+div#tryBox p {
+	line-height: 120%;
+	margin-top: 5px;
+}
+
+div#tryBox span {
+	position: absolute;
+	top: -50px;
+	left: 0;
+}
+
+div#trybgm {
+	width: 300px;
+	height: 40px;
+	margin-top: 10px;
+}
+
+div#trybgm p {
+	float: left;
+	margin-right: 7px;
+}
+
+div#soundFla {
+	position: absolute;
+	left: 223px;
+	width: 80px;
+	height: 40px;
+}
+
+/* 不定期バナー */
+
+body#home div#pre p {
+	position: absolute;
+	left: 15px;
+	top: 310px;
+}
+
+body#home div#pre p span {
+	position: absolute;
+	left: 5px;
+	top: -8px;	
+}
+
+body#home div#sp p {
+	position: absolute;
+	left: 15px;
+	top: 415px;
+}
+
+body#home div#sp p span {
+	position: absolute;
+	left: 10px;
+	top: -8px;	
+}
+
+body#home div#jump p {
+	position: absolute;
+	left: 15px;
+	top: 420px;
+}
+
+body#home div#jump p span {
+	position: absolute;
+	left: 0;
+	top: 0;	
+}
+
+body#home div#thusday {
+	position: absolute;
+	left: 280px;
+	top: 514px;
+}
+
+body#home div#twitter ul {
+	position: absolute;
+	left: 18px;
+	top: 493px;
+}
+
+body#home div#twitter li {
+	float: left;
+	margin-right: 3px;
+}
+
+body#home div#twitter li a {
+	display: block;
+	width: 150px;
+	height: 48px;
+}
+
+body#home p#beginner {
+	position: absolute;
+	left: 10px;
+	top: 415px;
+}
+
+body#home p#faq {
+	position: absolute;
+	left: 10px;
+	top: 495px;
+}
+
+body#home p#tgs {
+	position: absolute;
+	left: 12px;
+	top: 460px;
+}
+	

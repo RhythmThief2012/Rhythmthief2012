@@ -1,0 +1,496 @@
+@charset "utf-8";
+/* CSS Document */
+
+body#oTop div#header,body#oJjump div#header,body#oJump div#header,body#oPremium div#header,body#oShop div#header,body#o3dstry div#header,body#oMon div#header {
+	height: 160px;
+	width: 920px;
+}
+
+
+/***** othersTOP *****/
+
+body#oTop div#contentsBox {
+	background: url(../other/img/bg_others.jpg) no-repeat center top;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+body#oTop div#contentsBox h3,body#oJump div#contentsBox h3,body#oPremium div#contentsBox h3  {
+	margin-bottom:15px;
+}
+
+body#oTop div#contentsBox ul.btnBox {
+	margin: 0 10px 20px 20px;
+}
+
+body#oTop div#contentsBox ul.btnBox li {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+
+/***** その他ページ共通 ******/
+
+div.subBox {
+	margin: 0 20px;
+}
+
+
+/***** ジャンフェス2012 *****/
+
+body#oJump div#contentsBox {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+body#oJump div#contentsBox h4,body#oJump div#contentsBox h5 {
+	margin-bottom: 15px;
+}
+
+
+body#oJump div#rhythmBoxJ {
+	height: 457px;
+	width: 860px;
+	margin-bottom: 20px;
+	background: url(../other/img/111117jump_bg_rhythm.jpg);
+}
+
+body#oJump div#rhythmBoxJ ul {
+	padding: 55px 0 0 40px;
+}
+
+body#oJump div#rhythmBoxJ ul li {
+	float: left;
+	margin: 0 15px 10px 0;
+	width: 250px;
+	position: relative;
+}
+
+body#oJump div#rhythmBoxJ ul li span {
+	position: absolute;
+	left: 90px;
+	top: 48px;
+}
+
+body#oJump div#rhythmBoxJ li.third {
+	margin: 0 0 15px 0;
+}
+
+
+/***** 購入者キャンペーン *****/
+
+body#oPremium div#contentsBox {
+	background: url(../other/img/111208pre_bg.jpg) no-repeat center top;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+body#oPremium div.subBox {
+	margin-top: 680px;
+}
+
+
+/***** 店頭体験会 *****/
+
+body#oShop div#contentsBox {
+	background: url(../other/img/111227shop_bg.jpg) no-repeat center top;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+body#oShop div.subBox {
+	margin-top: 160px;
+}
+
+body#oShop div#higashi {
+	background: #FFF url(../other/img/111227shop_img05.gif) center bottom no-repeat;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+}
+
+body#oShop div#higashi ul.list {
+	color: #333;
+	line-height: 140%;
+}
+
+
+/***** 3DS体験版 *****/
+
+body#o3dstry div#contentsBox {
+	background: url(../other/img/111227_3dstry_bg.jpg) no-repeat center top;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+body#o3dstry div.subBox {
+	margin-top: 220px;
+}
+
+body#o3dstry ul.list {
+	font-weight: bold;
+}
+
+body#o3dstry ul#o3dstry li {
+	float: left;
+	margin: 0 5px 15px 0;
+	text-align: center;
+	font-size: 93%;
+}
+
+body#o3dstry ul#o3dstry li.last {
+	margin-right: 0;
+}
+
+
+/***** M-ON特番 *****/
+
+body#oMon div#contentsBox {
+	background: url(../other/img/120116m-on_bg.jpg) no-repeat center top;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+body#oMon div.subBox {
+	margin-top: 200px;
+}
+
+
+/***** ツイッターキャンペーン *****/
+
+body#oTw div#contentsBox {
+	background: url(../other/img/120119tw_bg.jpg) no-repeat center top;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+body#oTw div.subBox {
+	margin-top: 180px;
+}
+
+
+/***** かべがみ＆ツイッターアイコン *****/
+
+body#oWp div#contentsBox {
+	background: url(../other/img/wp_bg.jpg) no-repeat center top;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+body#oWp div.subBox {
+	margin-top: 210px;
+}
+
+body#oWp div.wpBox {
+	border-top: solid #e51d51 1px;
+	margin: 0 20px 10px 20px;
+	padding: 20px 80px;
+	clear: both;
+}
+
+
+body#oWp div.wpBox p {
+	float: left;
+}
+
+body#oWp div.wpBox ul {
+	margin: 0 0 10px 85px;
+	line-height: 140%;
+}
+
+body#oWp div.wpBox li {
+	margin: 0 20px 15px 0;
+	float: left;
+}
+
+body#oWp div.wpBox ul.wp li {
+	width: 250px;
+	text-align: center;
+	position: relative;
+}
+
+body#oWp div.wpBox ul.tw {
+	clear: left;
+}
+
+body#oWp div.wpBox ul.tw li {
+	width: 100px;
+	text-align: center;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+body#oWp ul.wp li span.new {
+	position: absolute;
+	left: 210px;
+	top: -10px;
+}
+
+body#oWp ul.tw li span.new {
+	position: absolute;
+	left: 48px;
+	top: -10px;
+}
+
+body#oWp div.wpBox p.totop {
+	margin: 0 0 20px 550px;
+}
+
+/***** 着うた *****/
+
+body#oSong div#contentsBox {
+	background: url(../other/img/120120song_bg.jpg) no-repeat center top;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+body#oSong div.subBox {
+	margin-top: 200px;
+}
+
+body#oSong div.songBox {
+	float: right;
+	margin: 0 0 15px 10px;
+	width: 200px;
+}
+
+body#oSong div.songBox h6 {
+	border-bottom: dotted #CCC 1px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+
+body#oSong div.songBox p {
+	font-size: 93%;
+	line-height: 140%;
+	margin-bottom: 5px;
+}
+
+body#oSong div#miwaBox {
+	margin: 0 50px 30px 50px;
+	padding: 15px;
+	background: url(../other/img/120120song_miwabg.gif);
+	clear: both;
+}
+
+body#oSong div#miwaBox h5 {
+	font-size: 108%;
+	font-weight: bold;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	border-bottom: solid #e5004f 1px;
+	color: #e5004f;
+}
+
+body#oSong div#miwaBox p {
+	color: #e5004f;
+}
+
+/***** FAQ *****/
+
+body#oFaq div#contentsBox {
+	background: url(../other/img/faq_bg.jpg) no-repeat center top;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+body#oFaq div.subBox {
+	margin-top: 70px;
+}
+
+body#oFaq div.faqBox {
+	border: 2px solid #a17202;
+	padding: 10px 10px 0 10px;
+	margin-bottom: 20px;
+	width: 836px;
+}
+
+body#oFaq div.faqBox h4 {
+	background: url(../other/img/ico_q.gif) no-repeat left top;
+	padding: 0 0 5px 30px;
+	margin-bottom: 10px;
+	border-bottom: #FFF dotted 1px;
+	font-weight: bold;
+}
+
+body#oFaq div.faqBox p.txt {
+	background: url(../other/img/ico_a.gif) no-repeat left top;
+	padding: 0 0 0 30px;
+	margin-bottom: 10px;
+}
+
+body#oFaq ul.movieBtn li.how {
+	text-indent: -9999px;
+	margin: 0 10px 10px 30px;
+	float: left;
+}
+
+body#oFaq ul.movieBtn li.how a {
+	display: block;
+	background-image: url(../other/img/btn_movie01.gif);
+	width: 120px;
+	height: 30px;
+}
+
+body#oFaq ul.movieBtn li.model {
+	text-indent: -9999px;
+	margin: 0 10px 10px 30px;
+}
+
+body#oFaq ul.movieBtn li.model a {
+	display: block;
+	background-image: url(../other/img/btn_movie02.gif);
+	width: 120px;
+	height: 30px;
+}
+
+/***** ツイッターキャンペーン 第2弾*****/
+
+body#oTw02 div#contentsBox {
+	background: url(../other/img/120202tw_bg.jpg) no-repeat center top;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+body#oTw02 div.subBox {
+	margin-top: 180px;
+}
+
+body#oTw02 div.chuiBox {
+	clear: both;
+	margin: 0 30px 30px 30px;
+	padding: 15px 15px 0 15px;
+	border: dotted 1px #666;
+	width: 770px;
+}
+
+/***** ツイッターキャンペーン 第3弾*****/
+
+body#oTw03 div#contentsBox {
+	background: url(../other/img/120209tw_bg.jpg) no-repeat center top;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+body#oTw03 div.subBox {
+	margin-top: 180px;
+}
+
+body#oTw03 div.chuiBox {
+	clear: both;
+	margin: 0 30px 30px 30px;
+	padding: 15px 15px 0 15px;
+	border: dotted 1px #666;
+	width: 770px;
+}
+
+/***** ツイッターキャンペーン 第4弾*****/
+
+body#oTw04 div#contentsBox {
+	background: url(../other/img/120216tw_bg.jpg) no-repeat center top;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+body#oTw04 div.subBox {
+	margin-top: 180px;
+}
+
+body#oTw04 div.chuiBox {
+	clear: both;
+	margin: 0 30px 30px 30px;
+	padding: 15px 15px 0 15px;
+	border: dotted 1px #666;
+	width: 770px;
+}
+
+/***** ツイッターキャンペーン 第5弾（サウンド感想）*****/
+
+body#oTw05 div#contentsBox {
+	background: url(../other/img/120216tw_sound_bg.jpg) no-repeat center top;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+body#oTw05 div.subBox {
+	margin-top: 180px;
+}
+
+body#oTw05 div.chuiBox {
+	clear: both;
+	margin: 0 30px 30px 30px;
+	padding: 15px 15px 0 15px;
+	border: dotted 1px #666;
+	width: 770px;
+}
+
+/***** ツイッターキャンペーン 第6弾（エンドレスバトル）*****/
+
+body#oTw06 div#contentsBox {
+	background: url(../other/img/120223tw_bg.jpg) no-repeat center top;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+body#oTw06 div.subBox {
+	margin-top: 180px;
+}
+
+body#oTw06 div.chuiBox {
+	clear: both;
+	margin: 0 30px 30px 30px;
+	padding: 15px 15px 0 15px;
+	border: dotted 1px #666;
+	width: 770px;
+}
+
+/***** ツイッターキャンペーン 第7弾（リズムゲーム感想）*****/
+
+body#oTw07 div#contentsBox {
+	background: url(../other/img/120223tw_game_bg.jpg) no-repeat center top;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+body#oTw07 div.subBox {
+	margin-top: 180px;
+}
+
+body#oTw07 div.chuiBox {
+	clear: both;
+	margin: 0 30px 30px 30px;
+	padding: 15px 15px 0 15px;
+	border: dotted 1px #666;
+	width: 770px;
+}
+
+/***** ツイッターキャンペーン 第7弾（リズムゲーム感想）*****/
+
+body#oNiko div#contentsBox {
+	background: url(../other/img/120302niko_bg.jpg) no-repeat center top;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+body#oNiko div.subBox {
+	margin-top: 180px;
+}
+
+body#oNiko div.chuiBox {
+	clear: both;
+	margin: 0 30px 30px 30px;
+	padding: 15px 15px 0 15px;
+	border: dotted 1px #666;
+	width: 770px;
+}
+
+body#oNiko div.manBox {
+	width: 420px;
+	float: left;
+	margin-right: 20px;
+}
+
+body#oNiko div.manBox02 {
+	width: 420px;
+	float: left;
+}

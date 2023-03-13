@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+body#game div#header {
+	height: 160px;
+	width: 920px;
+}
+
+body#game div#contentsBox {
+	background: url(../game/img/bg_game.jpg) no-repeat center top;
+	height: 920px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+p#copy {
+	text-align: center;
+	margin: 30px 0 50px 0;
+}
+
+div#gameFlaBox {
+	margin: 0 50px;
+	width: 800px;
+}
+
+body#game div#outline02 {
+	width: 503px;
+	height: 211px;
+	background: url(../game/img/bg_outline.gif);
+	position: absolute;
+	left: 200px;
+	top: 690px;
+}
+
+body#game div#outline02 dl {
+	margin: 20px 0 0 15px;
+}
+
+body#game div#outline02 p {
+	float: right;
+	margin: 20px 15px 0 0;
+}
+
+body#game div#outline02 dt {
+	background: url(../img/ico_onpu.gif) no-repeat left center;
+	padding-left: 15px;
+	width: 80px;
+	float: left;
+	clear: left;
+}
