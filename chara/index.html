@@ -2,8 +2,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
 <head>
-<!-- Ruffle SWF Loader -->
-<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Style-Type" content="text/css " />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
@@ -19,9 +17,6 @@
 
 <!-- swfobject -->
 <script src="../js/swfobject.js" type="text/javascript"></script>
-  
- <!-- Ruffle SWF Loader -->
-<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 
 <!-- jquery -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"  type="text/javascript"></script>
@@ -49,7 +44,7 @@ $(".iframe").colorbox({iframe:true, width:"550", height:"620"});
 
 </head>
 
-<body id="artist">
+<body id="chara">
 
 <!-- wrapper -->
 <div id="wrapper">
@@ -63,13 +58,14 @@ $(".iframe").colorbox({iframe:true, width:"550", height:"620"});
 <map name="Map" id="Map">
 <area shape="rect" coords="3,100,98,149" href="../home.html" alt="TOP" />
 <area shape="rect" coords="102,97,198,148" href="../game/index.html" alt="ゲーム概要" />
-<area shape="rect" coords="205,99,302,147" href="../story/index.html" alt="ストーリー" />
+<area shape="rect" coords="208,99,305,147" href="../story/index.html" alt="ストーリー" />
 <area shape="rect" coords="308,98,407,148" href="../rhythm/index.html" alt="リズムゲーム" />
-<area shape="rect" coords="410,100,508,146" href="../chara/index.html" alt="キャラクター" />
-<area shape="rect" coords="514,98,613,146" href="index.html" alt="アーティスト" />
-<area shape="rect" coords="617,99,715,147" href="../movie/index.html" alt="ムービー" />
+<area shape="rect" coords="411,100,509,146" href="../chara/index.html" alt="キャラクター" />
+<area shape="rect" coords="512,99,611,147" href="../artist/index.html" alt="アーティスト" />
+<area shape="rect" coords="616,100,714,148" href="../movie/index.html" alt="ムービー" />
 <area shape="rect" coords="718,99,816,147" href="../sound/index.html" alt="サウンド" />
 <area shape="rect" coords="820,100,918,148" href="../other/index.html" alt="その他" />
+</map>
 </map>
 </div>
 <script type="text/javascript">
@@ -80,36 +76,21 @@ $(".iframe").colorbox({iframe:true, width:"550", height:"620"});
 <!-- contents -->
 <div id="contents">
 
-<h2><img src="img/h2_artist.jpg" alt="アーティスト" width="900" height="45" /></h2>
+<h2><img src="img/h2_chara.jpg" alt="キャラクター" width="900" height="45" /></h2>
 
 <!-- contentsBox -->
 <div id="contentsBox" class="clearfix">
 
-<div class="artist clearfix">
-<h3><img src="img/h3_op.png" alt="オープニングテーマ" width="440" height="30" /></h3>
-<div class="photo">
-<p><img src="img/photo_miwa.jpg" alt="miwa" width="119" height="127" /></p>
-<p class="imgc"><img src="img/miwa.png" alt="miwa" width="95" height="37" /></p>
-</div>
-<h4><img src="img/h4_miwa.png" alt="miwa ♪クレアデルネ ※新規書き下ろし" /></h4>
-<p class="txt">1990年6月15日生まれ、葉山生まれ東京育ちの女性シンガーソングライター。15歳から曲を書きはじめ、高校時代に弾き語りのライブ活動を開始。
-</p>
-<p class="txt">CX系ドラマ「泣かないと決めた日」の主題歌に抜擢された『don't cry anymore』で2010年3月にデビュー。2011年4月にリリースした1stアルバム『guitarissimo』はウィークリーアルバムチャートで1位を獲得。</p>
-<p class="txt">現在は大学に通いながら楽曲制作・ライブ活動を展開している。2011年9月21日には7枚目のシングル『FRiDAY-MA-MAGiC』をリリース。</p>
-</div>
+<h3><img src="img/h3_chara.png" alt="キャラクター相関図" width="300" height="34" /></h3>
 
-<div class="artist clearfix ai">
-<h3><img src="img/h3_end.png" alt="エンディングテーマ" width="440" height="30" /></h3>
-<div class="photo">
-<p><img src="img/photo_ai.jpg" alt="ai" width="119" height="127" /></p>
-<p>UPCI-1095<br />
-©UNIVERSAL SIGMA, A UNIVERSAL MUSIC COMPANY</p>
+<div id="charaFla">
+<img src="img/chara.jpg" alt="キャラクター相関図" width="890" height="450"  />
 </div>
-<h4><img src="img/h4_ai.png" alt="AI ♪Story" width="277" height="26" /></h4>
-<p class="txt">1981年11月2日生まれ、アメリカ合衆国カリフォルニア州ロサンゼルス生まれ鹿児島育ちのR＆B歌手。</p>
-<p class="txt">2009年に発売した「BEST A.I.」はウィークリーアルバムチャートで1位を獲得。</p>
-<p class="txt">全世界で初のMichael Jacksonトリビュートライブのホストを務め、The Jacksonsとのコラボも予定されおり、日本・アジアを代表するシンガーAIの新たな快進撃はとどまることを知らない。</p>
-</div>
+<script type="text/javascript">
+var flashvars = {};
+var params = {wmode: "transparent"};
+ swfobject.embedSWF("chara.swf", "charaFla", "890", "450", "9.0.0","",flashvars, params );
+</script>
 
 </div>
 <!-- contentsBox end -->
