@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #220000 url(../amazon/img/bg.jpg) no-repeat center top;
+	text-align: center;
+	color: #CCC;
+}
+
+a:link{color: #cf8000;text-decoration:none;}
+a:visited{color: #955c00;text-decoration:none;}
+a:hover{color: #f29a0c;text-decoration:underline;}
+a:active{color:#f29a0c;text-decoration:none;}
+
+div#wrapper {
+	margin: 0 auto;
+}
+
+div#header {
+	height: 140px;
+	background: url(../amazon/img/bg_header.gif) repeat-x;
+}
+
+div#header div {
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+div#header h1 {
+	position: absolute;
+	left: 170px;
+	top: 5px;
+}
+
+div#header h2 {
+	position: absolute;
+	left: 460px;
+	top: 45px;
+}
+
+div#header p.sega {
+	position: absolute;
+	top: 5px;
+}
+
+div#header p.ninten3ds {
+	position: absolute;
+	top: 5px;
+	left: 665px;
+}
+
+.clearfix:after
+{	content:"";
+	display:block;
+	clear:both;} /* IE8, ModanBrowser */
+.clearfix {width:100%;} /* clearfix IE 6, 7 */
+
+div#unityPlayer {
+	text-align: left;
+	width: 800px;
+	height: 726px;
+	margin: 0 auto;
+}
+
+.missing {
+	text-align: center;
+	margin-top: 200px;
+}
+
+div#subBox {
+	margin: 15px auto;
+	text-align: left;
+	width: 800px;
+}
+
+div#subBox p {
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+
+/* 注意文 */
+ul.chui {
+	margin: 0 0 20px 15px;
+}
+
+ul.chui li {
+	list-style: disc;
+	color: #F33;
+	margin-bottom: 5px;
+}
